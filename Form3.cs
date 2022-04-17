@@ -134,7 +134,7 @@ namespace Statistika__Stat_App_
             foreach (string zanimanje in R4.Keys)
             {
                 chart3.Series[0].Points.Add(R4[zanimanje]);
-                chart3.Series[0].Points[i].LegendText = Math.Round(R4[zanimanje], 2).ToString();
+                //chart3.Series[0].Points[i].Label = Math.Round(R4[zanimanje], 2).ToString();
                 chart3.Series[0].Points[i].AxisLabel = zanimanje;
                 i++;
             }
